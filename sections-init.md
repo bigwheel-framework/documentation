@@ -109,7 +109,7 @@ MySection.prototype = {
 };
 ```
 
-We've assigned `req.route` to `sectionRoute`. So now in the above example if `sectionRoute` is `'/about'`. Our image would attempt to load from the following url `'/about/someImage.jpg'`. Now there's no reason why we could use this same section for multiple routes. For instance the `'/landing'` route could also bring in this section in which case the image would load from `'/landing/someImage.jpg`.
+We've assigned `req.route` to `sectionRoute`. So now in the above example if `sectionRoute` is `'/about'`. Our image would attempt to load from the following url `'/about/someImage.jpg'`. Now there's no reason why we could use this same section for multiple routes. For instance the `'/landing'` route could also bring in this section in which case the image would load from `'/landing/someImage.jpg'`.
 
 I hope you can see how the `req` parameter can be used to make your content be dynamic.
 

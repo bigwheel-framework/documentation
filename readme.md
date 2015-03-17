@@ -1,30 +1,31 @@
-
+Using `bigwheel`:
+- init
+- go
+- resize
 
 Sections:
 - [What is a section](sections.md)
 - Methods of a section:
     + [init](sections-init.md)
     + [resize](sections-resize.md)
-    + [animateIn and animateOut](sections-animateInOut.md)
+    + [animateIn](sections-animateInOut.md#animateIn) and [animateOut](sections-animateInOut.md#animateIn)
     + [destroy](sections-destroy.md)
 
 Routing:
-- Defining routes
-    + As section
-    + As section descriptor
-- Routes with params
-- Multi section routes
-- useURL
-- Duplicate
-- initSection
-- Redirect
-- 404
+- [What is a route](routes.md)
+- [Defining routes](routes-defining.md)
+    + [As section](routes-defining.md#as-section-standard-form)
+    + [As section descriptor](routes-defining.md#as-section-descriptor)
+    + [Multi section routes](routes-defining.md#multi-section-routes)
+- [Special Routes](routes-special.md)
+    + [Redirects](routes-special.md#redirects)
+    + [404](routes-special.md#404)
+    + [initSection](routes-special.md#initsection)
 
-Methods Of `bigwheel`:
-- init
-- go
-- resize
-
-Misc
+Misc:
 - post hash
 - overlap
+
+Gotchas:
+- Forgetting to call done
+- Circular dependendencies
