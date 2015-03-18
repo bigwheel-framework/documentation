@@ -26,5 +26,5 @@ Misc:
 - [Overlap](misc.md#overlap)
 
 Gotchas:
-- Forgetting to call done
-- Circular dependendencies
+- [Forgetting to call done](gotchas.md#forgetting-to-call-done)
+- [Circular dependendencies](gotchas.md#circular-dependendencies)

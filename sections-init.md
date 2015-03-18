@@ -80,7 +80,7 @@ MySection.prototype = {
 
 The `done` parameter passed to our `init` method is a function which should be called once initialization is finished. So in our case we'd like to add the image to `<body>` and then wait for it to be loaded and then notify `bigwheel` that we're finished initializing our content. So we can just simply add the `done` paramter to the `onload` event handler of the `HTMLImageElement`.
 
-**_It should be noted here that a huge gotcha is to forget to call the `done` parameter. ALWAYS remember to call the `done` parameter otherwise `bigwheel` will not know that your `init` method is finished and your application will sit there doing nothing._**
+**_Gotcha: It should be noted here that a huge gotcha is to forget to call the `done` parameter. ALWAYS remember to call the `done` parameter otherwise `bigwheel` will not know that your `init` method is finished and your application will sit there doing nothing._**
 
 ### `req`
 
