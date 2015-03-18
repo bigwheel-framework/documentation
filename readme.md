@@ -21,9 +21,9 @@ Routing:
     + [initSection](routes-special.md#initsection)
 
 Misc:
-- resize
-- post hash
-- overlap
+- [Auto resize](misc.md#auto-resize)
+- [Post hash](misc.md#auto-resize)
+- [Overlap](misc.md#overlap)
 
 Gotchas:
 - Forgetting to call done
