@@ -3,7 +3,7 @@
 
 `bigwheel` is an unopinionated, minimalist framework which handles frontend application state. It can be used to organize your application into "sections"/pages which are brought in by routes. Animation is a first class citizen and is accounted for when managing application states. `bigwheel` does not conform to a specific render engine framework so a project which is based on the DOM, WebGL, Canvas2D, SVG, or even Console applications can be built using bigwheel.
 
-This documents purpose is to serve has an overview of how to work with `bigwheel`.
+This documents purpose is to serve has an overview of how to work with bigwheel.
 
 ### Using bigwheel:
 - [Quick Start](quickstart.md)
