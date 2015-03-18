@@ -1,14 +1,12 @@
 Using `bigwheel`:
-- init
-- go
-- resize
+- [Quick Start](quickstart.md)
 
 Sections:
 - [What is a section](sections.md)
 - Methods of a section:
     + [init](sections-init.md)
     + [resize](sections-resize.md)
-    + [animateIn](sections-animateInOut.md#animateIn) and [animateOut](sections-animateInOut.md#animateIn)
+    + [animateIn](sections-animateInOut.md#animatein) and [animateOut](sections-animateInOut.md#animateout)
     + [destroy](sections-destroy.md)
 
 Routing:
@@ -23,6 +21,7 @@ Routing:
     + [initSection](routes-special.md#initsection)
 
 Misc:
+- resize
 - post hash
 - overlap
 
