@@ -5,10 +5,10 @@
 
 This documents purpose is to serve has an overview of how to work with `bigwheel`.
 
-Using `bigwheel`:
+### Using `bigwheel`:
 - [Quick Start](quickstart.md)
 
-Sections:
+### Sections:
 - [What is a section](sections.md)
 - Methods of a section:
     + [init](sections-init.md)
@@ -16,7 +16,7 @@ Sections:
     + [animateIn](sections-animateInOut.md#animatein) and [animateOut](sections-animateInOut.md#animateout)
     + [destroy](sections-destroy.md)
 
-Routing:
+### Routing:
 - [What is a route](routes.md)
 - [Defining routes](routes-defining.md)
     + [As section](routes-defining.md#as-section-standard-form)
@@ -27,11 +27,11 @@ Routing:
     + [404](routes-special.md#404)
     + [initSection](routes-special.md#initsection)
 
-Misc:
+### Misc:
 - [Auto resize](misc.md#auto-resize)
 - [Post hash](misc.md#auto-resize)
 - [Overlap](misc.md#overlap)
 
-Gotchas:
+### Gotchas:
 - [Forgetting to call done](gotchas.md#forgetting-to-call-done)
 - [Circular dependendencies](gotchas.md#circular-dependendencies)
