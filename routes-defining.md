@@ -37,7 +37,9 @@ module.exports = {
     '/': Section
 };
 ```
+
 **_This may cause issues because of [circular dependencies](http://selfcontained.us/2012/05/08/node-js-circular-dependencies/). For instance `Section` may require in the instance of bigwheel and use the `go` method of `bigwheel` to change sections. So in this case:
+
 - framework (instance of bigwheel) requires routes
 - routes requires Section
 - Section requires framework

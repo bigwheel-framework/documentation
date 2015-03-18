@@ -11,6 +11,7 @@ If you do this you're application will have unexpected results such as the `init
 ## Circular Dependendencies
 
 In most module system it's possible to create circular dependencies. What this means is that:
+
 1. A requires 
 2. B requires A
 

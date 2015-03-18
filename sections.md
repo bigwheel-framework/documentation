@@ -3,6 +3,7 @@
 What are sections? Sections are pages or parts of your application.
 
 Sections perform the following: 
+
 1. initialize content to be brought on screen
 2. resize or make content be responsive
 3. animate in that content
@@ -103,6 +104,7 @@ The section now would handle just initialize the content and then destroying tha
 In `bigwheel` there is a view manager. It's purpose is to bring in and out sections. 
 
 The view manager will always call the sections methods in the following order:
+
 1. `init`
 2. `resize`
 3. `animateIn`

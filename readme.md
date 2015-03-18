@@ -1,3 +1,6 @@
+# `bigwheel`
+![bigwheel logo](images/bigwheellogo.png)
+
 Using `bigwheel`:
 - [Quick Start](quickstart.md)
 
