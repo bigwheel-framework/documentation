@@ -40,7 +40,7 @@ var bigwheel = require('bigwheel');
 var Landing = require('../sections/Landing');
 var About = require('../sections/About');
 
-var goodFramework = bigwheel( function() {
+var badFramework = bigwheel( function() {
 
     return {
         routes: {
